@@ -1,0 +1,747 @@
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+html,body {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+head,main{
+    width: 100%;
+}
+article,main,header,nav {
+    display: block;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/** font awesone **/
+        i.fa-paper-plane {
+            color: #fff;
+            display: block;
+            width: 100px;
+            margin: 50px auto;
+            cursor: pointer;
+        }
+        i.fa-paper-plane:hover {
+            color: #5FCD5F;
+            transition: 1s color ease;
+        }
+        a #paper{
+            height: auto;
+            display: block;
+            width: 120px;
+            margin: 100px auto;
+        }
+        .fa-paper-plane::after {
+            content: "Go up";
+            font-size: 10px;
+            color: #fff;
+            display: block;
+            font-family: sans-serif;
+        }
+        i.fa-bars {
+            color: #fff;
+            width: 25px;
+            height: 25px;
+            font-size: 30px;
+            display: none;
+            padding: 10px;
+            background-color: #171819;
+            cursor: pointer;
+            border-radius: 15%;
+        }
+        i.fa-bars:hover {
+            color: #515151;
+            background-color: #fff;
+        }
+        i.fa-bolt,i.fa-exclamation-triangle,i.fa-users{
+            color: #9D9D8D;
+            font-size: 35px;
+            display: block;
+        }
+        i.fa-pencil,i.fa-user,i.fa-facebook,i.fa-instagram,i.fa-youtube,i.fa-quote-left{
+            color: #2D2C2C;
+        }
+
+
+
+/** header**/
+#head {
+        height: 4.66666em;
+        left: 0;
+		line-height: 3.25em;
+		position: absolute;
+		text-align: right; 
+        margin: 0;
+        padding: 0;
+		top: 1.8em;
+		width: 100%;
+		z-index: 10001;
+       font-family: 'Patrick Hand SC', cursive;
+        font-weight: 800;
+  
+    }
+    header #inner {
+        margin: 0 auto;
+        position: relative;
+        max-width: 1200px;
+    }
+    #logo {
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: -25px;
+        font-family:sans-serif;
+        color: #fff;
+        font-family: impact;
+        word-spacing: 2px;
+        font-size: 45px;
+        text-align: left;
+    }
+    #logo::after {
+        padding-right: 20px;
+        border-right: 1px solid #fff;
+        content: " By OMNIVERSE";
+        font-size: 18px;
+        font-weight: 100;
+        font-family: 'Patrick Hand SC', cursive;
+        color: #9DDE9D;
+    }
+    strong {
+        color: #000;
+    }
+    #nav {
+        display: inline-block;
+        padding-right: 50px;
+        font-size: 21px;
+        font-weight: 100;
+    }
+    #nav a {
+        color: transparent;
+        text-shadow: 0px 0px 1px #fff;
+        padding: 0px 3px 0px 37px;
+    }
+    #nav:hover a {
+        text-shadow: 0px 0px 2px #fff;
+    }
+    #nav a:hover{
+         text-shadow: 0px 0px 0px #fff;
+    }
+
+    #creatorpage {
+        padding: 30px 0 0 0px;
+    }
+
+
+
+
+/**MAIN BANNER**/
+
+#banner {
+    background: url('../images/804384.jpg') fixed bottom no-repeat;
+    background-size: cover;
+    height: 755px;
+    text-align: center;
+    position: relative;
+    top: -35px;
+ 
+    
+}
+
+    #banner::before {
+        position: absolute;
+        content: '';
+        background-color:rgba(66,66,84,0.9);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+
+
+    #banner #inner {
+        position: relative;
+        top: 180px;
+        left: -20px;
+        max-height: 500px;
+        padding-top: 90px;
+        max-width: 1100px;
+        margin: 0 auto;
+        border-top: 5px solid #9DDE9D;
+        
+    }
+    
+    #welcome {
+        font-family: 'Frijole', cursive;
+        color: #fff;
+        font-size: 60px;
+    }
+    #welcome::selection {
+        background-color: seagreen;
+    }
+
+     #inners {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-around;
+         flex-direction: row;
+        max-width: 950px;
+        height: 200px;
+        margin: auto;
+        flex-wrap: wrap;
+
+    }
+
+  #column-1,#column-2,#column-3{
+         font-family: 'Patrick Hand SC', cursive;
+      color: #9DDE9D;
+      font-weight: 800;
+      font-size: 25px;
+      padding-left: 5px;
+      padding-right: 70px;
+      border-right: 4px solid #5D6063;
+      height: 100px;
+      
+    }
+
+    #column-3 {
+        border: none;
+
+        }
+
+    #images {
+        padding: 8px 40px 8px ;
+        background: none;
+        border-radius: 15px;
+        color: #fff;
+        font-family: 'Patrick Hand SC', cursive;
+        border: none;
+        position: relative;
+        left: -30px;
+        background-color: #66A066;
+        cursor: pointer;
+
+    }
+    #images:hover {
+        color: #66A066;
+        background-color: #fff;
+    }
+    #cross {
+        display: none;
+    }
+
+
+
+/** MAIN NOTES ABOUT OWNER **/
+#creatorpage {
+    min-height: 800px;
+    position: relative;
+    bottom:64.56px;
+    display: flex;
+    flex-wrap:wrap;
+}
+#container-2,#bg-side-scroll {
+    width: 50%; 
+    text-align: center;
+    position: relative;
+}
+#container-2{
+      background-color: #699669;
+}
+#image-2 {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 41px 18px -30px #4D7E4D;
+    position: relative;
+    top: 20px;
+}
+#image-2 img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  
+}
+div > #text {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fff;
+
+}
+span[id^="name"] {
+    display: block;
+    width: 150px;
+    margin: auto;
+     font-family: Roboto;
+}
+button[id*="con"]{
+    display: block;
+    margin: 25px auto;
+    background-color: #171819;
+    padding: 5px 90px;
+    color: #fff;
+    font-family: Roboto;
+    cursor: pointer;
+    
+}
+div > h2 {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 30px;
+    color: #DBDBDB;
+    position: relative;
+    top:20px;
+}
+div >h2::selection {
+    background-color: seagreen;
+}
+#bg-side-scroll{
+ background: url('../images/422411.jpg') fixed bottom no-repeat;
+    background-size: cover;
+    max-height: inherit;
+   
+}
+#bg-side-scroll::before {
+    content: ' ';
+    position: absolute;
+    background-color: rgba(36,60,36,0.9);
+     width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+}
+#para-1 {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    max-width: 300px;
+    color: #fff;
+    font-family: Roboto;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+/**NOTES **/
+#notes {
+  padding-top: 30px;
+    min-height:200px; 
+    
+}
+#para-2 {
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    padding: 5px;
+}
+p#para-2::first-line {
+    color: green;
+}
+#author {
+    position: absolute;
+    right: 0px;
+    display: block;
+    max-width: 100px;
+    font-family: 'Patrick Hand SC', cursive;
+    color: #26282A;
+}
+
+
+
+
+
+
+
+
+
+
+/** footer **/
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #161613;
+    color: #5FCD5F;
+    padding-top: 1px;
+    height:367px ;
+  
+}
+#footer-list ul {
+    text-align: center;
+    max-width: 700px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    padding: 0;
+    
+    
+}
+#footer-list ul li{
+    display:  inline;
+     color: #5FCD5F;
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+ 
+}
+#footer-list ul li:nth-of-type(2) {
+    position: relative;
+    left: 30px;
+}
+#footer-list ul li:nth-of-type(3) {
+    position: relative;
+    left: 80px;
+}
+#footer-list ul li:nth-of-type(4) {
+    position: relative;
+    left: 130px;
+}
+#footer-list ul li:last-child {
+    position: relative;
+    left: 130px;
+    border: none;
+}
+#footer-main {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/** @media  for screen only **/
+
+                            @media screen and (max-width:1141px) {
+                                #banner #inner{
+                                    width: 960px;
+                                }
+                            }
+                            @media screen and (max-width:1018px) {
+                                #banner #inner{
+                                    width: 860px;
+                                }
+                            }
+                            @media screen and (max-width:925px) {
+                                #banner #inner{
+                                    width: 750px;
+                                }
+                            }
+                            @media only screen and (max-width:932px) {
+                                #home ,#news,#about,#join{
+                                    font-size: 18px;
+                                }
+                                #nav a{
+                                    padding: 0px 3px 0px 27px;
+                                }
+                                  h1#welcome {
+                                    font-size: 50px;
+                                }
+                                #notes {
+                                    padding-bottom: 80px;
+                                }
+                                #para-2 {
+                                    max-width: 500px;
+                                }
+                                #para-1 {
+                                    position: relative;
+                                    left: 17%;
+                                }
+                            }
+                            @media screen and (max-width:829px) {
+                                #banner #inner{
+                                    width: 710px;
+                                }
+                                #para-1 {
+                                    max-width: 250px;
+                                    font-size: 15px;
+                                }
+                            }
+
+                            @media only screen and (max-width:789px) {
+                                #nav{
+                                    display: none;
+                                }
+                                 i.fa-bars {
+                                    display: block;
+                                     position: absolute;
+                                     right: 50px;
+                                }
+                                  h1#welcome {
+                                    font-size: 50px;
+                                }
+                            }
+                            @media only screen and (max-width:787px) {
+                                #logo{
+                                    font-size: 40px;
+                                }
+                                #banner #inner {
+
+                                    max-width: 660px;
+                                    margin: 0 auto;
+                                    border-top: 1px solid #9DDE9D;
+                                }
+                                
+                                  h1#welcome {
+                                    font-size: 50px;
+                                }
+                            }
+                            @media screen and (max-width:780px) {
+                                #banner #inner{
+                                    width: 610px;
+                                }
+                            }
+                            @media screen and (max-width:688px) {
+                                #banner #inner {
+                                    width: 550px;
+                                }
+                                i.fa-bolt,i.fa-exclamation-triangle,i.fa-users {
+                                    font-size: 25px;
+                                }
+                                #column-1,#column-2,#column-3 {
+                                    max-height: 80px;
+
+
+
+                                }
+
+                            }
+                                @media screen and (max-width:678px) {
+                                    #banner {
+                                        min-height: 800px; 
+
+                                    }
+
+                                    h1#welcome {
+                                    font-size: 50px;
+                                    }
+                                    #banner #inner{
+                                        width: 500px;
+                                    }
+                                    #footer-list ul {
+                                        width: 600px;
+                                        position: relative;
+                                        right: 20px;
+                                        padding-left: 0px;
+                                    }
+                                    div#footer-list ul li{ 
+                                     padding-left: 0px;
+                            }
+
+                            } 
+                        @media screen and (max-width:618px) {
+                                #banner #inner{
+                                    width: 450px;
+                                }
+                                h1#welcome {
+                                    font-size: 50px;
+                                }
+                                #inners {
+                                     width: 100px;
+                                    min-height: 230px;
+                                }
+                                span#column-1,span#column-2,span#column-3{
+                                  padding-right: 0px;
+                                    border-right: none;
+                                }
+                                button#images {
+                                    position: relative;
+                                    top: 50px;
+                                    left: 10px;
+                                }
+                                #banner {
+                                    min-height:840px;
+                                }
+                                footer {
+                                    padding-bottom: 100px;
+                                }
+                                #para-1 {
+                                    max-width: 180px;
+                                }
+                            #creatorpage {
+                                min-height: 500px;
+                            }
+                            }
+
+                            @media screen and (max-width:610px) {
+                                div#footer-list ul li:not(:last-child){
+                                    display: block;
+                                    border: none;
+                                    line-height: 2em;
+                                    font-size: 15px;
+                                    border-bottom: 1px solid #464646;
+                                    width: 300px;
+                                    margin: auto;
+                                    cursor:help;
+                                }
+                                div#footer-list ul {
+                                    width: 350px;
+                                    margin: 30px auto;
+                                }
+
+                                div#footer-list ul li:nth-of-type(2) {
+                                    position: relative;
+                                    left: 0px;
+                                }
+                                div#footer-list ul li:nth-of-type(3) {
+                                    position: relative;
+                                    left: 0px;
+                                }
+                                div#footer-list ul li:nth-of-type(4) {
+                                    position: relative;
+                                    left: 0px;
+                                }
+                                div#footer-list ul li:last-child {
+                                    position: relative;
+                                    left: 0px;
+                                     line-height: 2em;
+                                     cursor:help;
+
+                                }
+                                small#footer-main {
+                                    width: 205px;
+                                    margin: 0 auto;
+                            }
+                                #para-1 {
+                                    position: absolute;
+                                    top: 5%;
+                                    left: 20%;
+                                    font-size: 15px;
+                                }
+                                button[id*="con"]{
+                                    padding: 5px 9px;
+                                    width: 200px;
+                                    font-size: 15px;
+                                }
+                                i.fa-facebook,i.fa-instagram,i.fa-youtube {
+                                    font-size: 25px;
+                                }
+                            }
+@media screen and (max-width: 563px) {
+    #para-2 {
+        max-width: 350px;
+    }
+     #name-person,#name-profession {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 520px) {
+    #banner #inner {
+        max-width: 370px;
+    }
+     h1#welcome {
+        font-size: 35px;
+    }
+    #logo {
+        font-size: 35px;
+    }
+    i.fa-bars {
+        font-size: 20px;
+        position: absolute;
+        padding: 10px 10px 5px 5px;
+        top: 10px;
+    }
+     #name-person,#name-profession {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 445px) {
+    #banner #inner {
+        max-width: 320px;
+    }
+    h1#welcome {
+        font-size: 35px;
+    }
+    #column-1,#column-2,#column-3{
+        font-size: 20px;
+    }
+     #name-person,#name-profession {
+        font-size: 15px;
+    }
+    
+}
+                           
+@media screen and (max-width: 528px){
+    
+    #creatorpage {
+        min-height: 1000px;
+         
+    }
+    #container-2,
+    #bg-side-scroll {
+      
+        height: 700px;
+    }
+    #container-2{
+        flex:100%;
+    }
+    #bg-side-scroll {
+        flex: 100%;
+        
+        
+    }
+     #name-person,#name-profession {
+        font-size: 15px;
+    }
+                            div#footer-list ul li:not(:last-child){
+                                    width: 200px;
+                                }
+    
+}
+@media screen and (max-width: 377px) {
+    #banner #inner{
+        width: 250px;
+        position: relative;
+        top: 150px;
+        
+    }
+     #name-person,#name-profession {
+        font-size: 15px;
+    }
+    
+    #logo::after {
+        content: '';
+        border: none;
+    }
+    #footer-list ul {
+        text-align: center;
+        max-width: 250px;
+        box-sizing: border-box;  
+    
+}
+   
+}
+@media screen and (max-width: 268px) {
+    div#footer-list ul li:not(:last-child){
+                                    width: 150px;
+                                }
+    #contact {
+    width: 150px;
+}
+    i.fa-facebook,i.fa-instagram,i.fa-youtube {
+                                    font-size: 22px;
+                                }
+    #name-person,#name-profession {
+        font-size: 15px;
+    }
+    #banner #inner {
+        width: 210px;
+    }
+}
