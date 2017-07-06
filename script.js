@@ -8,5 +8,3 @@ function changeColor() {
     x.style.backgroundColor = "rgba(0,0,0,0.7)";
 }
 
-document.getElementById("login").onclick = function() { gotoLogin() };
-
